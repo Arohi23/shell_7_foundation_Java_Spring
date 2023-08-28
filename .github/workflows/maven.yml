@@ -30,8 +30,8 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
-    - name: Build Docker Image
-      run: docker build -t Arohi23/shell_7_foundation_Java_Spring:0.0.1.Release .
+    #- name: Build Docker Image
+      #run: docker build -t Arohi23/shell_7_foundation_Java_Spring:0.0.1.Release .
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     #- name: Update dependency graph
