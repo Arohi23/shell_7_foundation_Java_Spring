@@ -1,3 +1,4 @@
+nvm install -Dskiptests
 name: Java CI with Maven
 
 on:
